@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TrabalhoPratico01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+<servlet>
+   <servlet-name>Login_Servlet</servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.LoginServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>Login_Servlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+  
+  
+  
+<servlet>
+   <servlet-name>AdicionaUsuario_Servlet</servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaUsuarioServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaUsuario_Servlet</servlet-name>
+  <url-pattern>/AdicionaUsuarioServlet</url-pattern>
+</servlet-mapping>  
+  
+ <servlet>
+   <servlet-name>ExcluirUsuario_Servlet</servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.ExcluirUsuarioServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>ExcluirUsuario_Servlet</servlet-name>
+  <url-pattern>/ExcluirUsuarioServlet</url-pattern>
+</servlet-mapping>  
+ 
+  
+ <servlet>
+   <servlet-name>EditaUsuario_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.EditaUsuarioServlet </servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>EditaUsuario_Servlet </servlet-name>
+  <url-pattern>/EditaUsuarioServlet </url-pattern>
+</servlet-mapping>
+  
+  
+   <servlet>
+   <servlet-name>LogoffServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.LogoffServlet </servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LogoffServlet_Servlet </servlet-name>
+  <url-pattern>/LogoffServlet </url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name> AdicionaMedicoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaMedicoServlet </servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name> AdicionaMedicoServlet_Servlet </servlet-name>
+  <url-pattern>/AdicionaMedicoServlet </url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>EditaMedicoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.EditaMedicoServlet </servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name> EditaMedicoServlet_Servlet </servlet-name>
+  <url-pattern>/EditaMedicoServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>ExcluirMedicoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.ExcluirMedicoServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>ExcluirMedicoServlet_Servlet </servlet-name>
+  <url-pattern>/ExcluirMedicoServlet</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+   <servlet-name>AdicionaPacienteServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaPacienteServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaPacienteServlet_Servlet </servlet-name>
+  <url-pattern>/AdicionaPacienteServlet</url-pattern>
+</servlet-mapping>  
+ 
+<servlet>
+   <servlet-name>EditaPacienteServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.EditaPacienteServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>EditaPacienteServlet_Servlet </servlet-name>
+  <url-pattern>/EditaPacienteServlet</url-pattern>
+</servlet-mapping>  
+
+<servlet>
+   <servlet-name>ExcluirPacienteServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.ExcluirPacienteServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>ExcluirPacienteServlet_Servlet </servlet-name>
+  <url-pattern>/ExcluirPacienteServlet</url-pattern>
+</servlet-mapping> 
+
+
+<servlet>
+   <servlet-name>AdicionaProdutoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaProdutoServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaProdutoServlet_Servlet </servlet-name>
+  <url-pattern>/AdicionaProdutoServlet</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+   <servlet-name>EditaProdutoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.EditaProdutoServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>EditaProdutoServlet_Servlet </servlet-name>
+  <url-pattern>/EditaProdutoServlet</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+   <servlet-name>ExcluirProdutoServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.ExcluirProdutoServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>ExcluirProdutoServlet_Servlet </servlet-name>
+  <url-pattern>/ExcluirProdutoServlet</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+   <servlet-name>AdicionaProntuarioServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaProntuarioServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaProntuarioServlet_Servlet</servlet-name>
+  <url-pattern>/AdicionaProntuarioServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AdicionaPreconsultaServlet_Servlet </servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaPreconsultaServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaPreconsultaServlet_Servlet</servlet-name>
+  <url-pattern>/AdicionaPreconsultaServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AgendadeConsultaServlet_Servlet</servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AgendadeConsultaServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AgendadeConsultaServlet_Servlet</servlet-name>
+  <url-pattern>/AgendadeConsultaServlet</url-pattern>
+</servlet-mapping> 
+
+<servlet>
+   <servlet-name>AdicionaConsultaServlet_Servlet</servlet-name>
+   <servlet-class>br.ifmg.trabalhopratico01.servlets.AdicionaConsultaServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>AdicionaConsultaServlet_Servlet</servlet-name>
+  <url-pattern>/AdicionaConsultaServlet</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
